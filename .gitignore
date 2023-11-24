@@ -1,0 +1,55 @@
+# Ignorar arquivos e diretórios gerados pelo ambiente de desenvolvimento
+target/
+bin/
+out/
+
+# Ignorar arquivos de configuração específicos do seu IDE (Eclipse, IntelliJ, etc.)
+.settings/
+.classpath
+.project
+
+# Ignorar arquivos de compilação Java
+*.class
+
+# Ignorar arquivos de log
+*.log
+*.log.*
+log/
+logs/
+
+# Ignorar arquivos de build
+build/
+dist/
+*.war
+*.ear
+
+# Ignorar arquivos de dependência gerados pelo Maven
+dependency/
+*.jar
+*.war
+*.ear
+
+# Ignorar arquivos temporários
+*.swp
+*~
+*.jar
+
+# Ignorar arquivos de configuração de sistema
+.DS_Store
+
+# Ignorar arquivos de configuração do sistema operacional
+Thumbs.db
+ehthumbs.db
+
+# Ignorar arquivos de cache
+cache/
+
+# Ignorar arquivos específicos de configuração do seu projeto (exemplo: application.properties)
+config/application.properties
+
+# Ignorar diretório de saída do Gradle
+build/
+.gradle/
+
+# Ignorar arquivos de configuração do Visual Studio Code
+.vscode/
